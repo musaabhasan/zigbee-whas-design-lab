@@ -1,0 +1,22 @@
+{
+  "name": "musaabhasan/zigbee-whas-design-lab",
+  "description": "PHP/MySQL research portal for designing and evaluating ZigBee wireless home automation systems.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZigbeeWhasLab\\": "src/"
+    }
+  },
+  "scripts": {
+    "lint": "php -d display_errors=1 bin/lint.php",
+    "test": "php -d display_errors=1 bin/test.php"
+  }
+}
+
