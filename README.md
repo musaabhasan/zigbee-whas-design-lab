@@ -1,4 +1,4 @@
-﻿# ZigBee WHAS Design Lab
+# ZigBee WHAS Design Lab
 
 A PHP 8.x and MySQL 8.0 research portal for designing and evaluating ZigBee-based wireless home automation systems.
 
